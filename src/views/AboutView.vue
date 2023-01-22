@@ -23,7 +23,7 @@ data() {
   }
 },
 mounted() {
-console.log(import.meta.env.VITE_TEXT);
+// console.log(import.meta.env.VITE_TEXT);
 const url = import.meta.env.VITE_PATH;
 this.$http.get(url)
 .then((res) => {
